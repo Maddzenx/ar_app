@@ -6,20 +6,18 @@ using UnityEngine.SceneManagement;
 
 public class UIController : MonoBehaviour
 {
-public Button Testknapp;
+    public Button Testknappen;
     // Start is called before the first frame update
     void Start()
     {
         var root = GetComponent<UIDocument>().rootVisualElement;
-
-        Testknapp = root.Q<Button>("Testknapp");
-
-
+        Testknappen = root.Q<Button>("Testknapp");
+        Testknappen.clicked += TestknappenPressed;
     }
 
     // Update is called once per frame
-    void TestknappPressed() {
-        SceneManager.LoadScene("Scene bookshelf");
+    void TestknappenPressed() {
+        SceneManager.LoadScene("New Scene");
 
     }
 }
