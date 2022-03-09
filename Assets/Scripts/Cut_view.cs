@@ -5,23 +5,23 @@ using UnityEngine;
 using UnityEngine.UIElements;
 using UnityEngine.SceneManagement;
 
-public class NewScript : MonoBehaviour
+public class Cut_view : MonoBehaviour
 {
-    public Button testknapp;
+    public Button cut;
 
     // Start is called before the first frame update
     void Start()
     {
         var root = GetComponent<UIDocument>().rootVisualElement;
-
-        testknapp = root.Q<Button>("info_button");
-        testknapp.clicked += testknappPressed;
+    
+        cut = root.Q<Button>("cut_view");
+        cut.clicked += cutPressed;
     }
 
     // Update is called once per frame
-    void testknappPressed() {
-        SceneManager.LoadScene("infobox_view");
-
+    void cutPressed()
+    {
+        SceneManager.LoadScene("cut_view");
     }
 
 }

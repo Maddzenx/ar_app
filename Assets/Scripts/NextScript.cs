@@ -5,23 +5,24 @@ using UnityEngine;
 using UnityEngine.UIElements;
 using UnityEngine.SceneManagement;
 
-public class NewScript : MonoBehaviour
+public class NextScript : MonoBehaviour
 {
-    public Button testknapp;
+    public Button info;
 
     // Start is called before the first frame update
     void Start()
     {
         var root = GetComponent<UIDocument>().rootVisualElement;
-
-        testknapp = root.Q<Button>("info_button");
-        testknapp.clicked += testknappPressed;
+        info = root.Q<Button>("info_button");
+        info.clicked += infoPressed;
+    
     }
 
     // Update is called once per frame
-    void testknappPressed() {
-        SceneManager.LoadScene("infobox_view");
-
+    void infoPressed() {
+        SceneManager.LoadScene("Scene standard-view");
+        
     }
+
 
 }
