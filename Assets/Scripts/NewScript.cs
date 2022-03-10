@@ -5,6 +5,8 @@ using UnityEngine;
 using UnityEngine.UIElements;
 using UnityEngine.SceneManagement;
 
+[RequireComponent(typeof(UIDocument))]
+
 public class NewScript : MonoBehaviour
 {
     public Button testknapp;

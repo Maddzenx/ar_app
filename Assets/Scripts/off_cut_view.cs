@@ -5,6 +5,8 @@ using UnityEngine;
 using UnityEngine.UIElements;
 using UnityEngine.SceneManagement;
 
+[RequireComponent(typeof(UIDocument))]
+
 public class off_cut_view : MonoBehaviour
 {
     public Button cut;
