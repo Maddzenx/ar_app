@@ -6,23 +6,23 @@ using UnityEngine.UIElements;
 using UnityEngine.SceneManagement;
 
 [RequireComponent(typeof(UIDocument))]
-public class Add_book : MonoBehaviour
 
+public class off_sketch_view : MonoBehaviour
 {
-        public Button Add;
+   public Button sketch;
+
     // Start is called before the first frame update
     void Start()
     {
         var root = GetComponent<UIDocument>().rootVisualElement;
     
-        Add = root.Q<Button>("add_book");
-        Add.clicked += AddPressed;
-        
+        sketch = root.Q<Button>("sketch_view");
+        sketch.clicked += sketchPressed;
     }
 
     // Update is called once per frame
-    void AddPressed()
+    void sketchPressed()
     {
-        SceneManager.LoadScene("categories");
+        SceneManager.LoadScene("Scene standard-view");
     }
 }

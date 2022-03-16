@@ -6,23 +6,24 @@ using UnityEngine.UIElements;
 using UnityEngine.SceneManagement;
 
 [RequireComponent(typeof(UIDocument))]
-public class Add_book : MonoBehaviour
 
+public class kullager : MonoBehaviour
 {
-        public Button Add;
+    public Button kul;
+
     // Start is called before the first frame update
     void Start()
     {
         var root = GetComponent<UIDocument>().rootVisualElement;
     
-        Add = root.Q<Button>("add_book");
-        Add.clicked += AddPressed;
-        
+        kul = root.Q<Button>("kullager");
+        kul.clicked += kulPressed;
     }
 
     // Update is called once per frame
-    void AddPressed()
+    void kulPressed()
     {
-        SceneManager.LoadScene("categories");
+        SceneManager.LoadScene("list_of_elements");
     }
+
 }

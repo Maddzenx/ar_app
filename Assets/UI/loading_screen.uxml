@@ -1,0 +1,7 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement name="VisualElement" style="height: 844px; width: 390px; -unity-background-image-tint-color: rgb(245, 245, 245); background-color: rgb(245, 245, 245); display: flex;">
+        <ui:Label text="Appnamn" display-tooltip-when-elided="true" style="font-size: 39px; -unity-font: url(&apos;/Assets/Fonts/Montserrat/static/Montserrat-ExtraBold.ttf&apos;); position: absolute; top: 425px; left: auto; -unity-font-definition: none; color: rgb(101, 101, 101); height: 84px; width: 390px; -unity-text-align: middle-center; background-color: rgba(0, 0, 0, 0);" />
+        <ui:VisualElement style="background-image: url(&apos;/Assets/Images/icon_logo.png&apos;); width: 167px; height: 168px; position: absolute; top: 239px; left: 112px; right: auto;" />
+        <ui:Button display-tooltip-when-elided="true" name="click" style="width: 390px; height: 844px; overflow: visible; visibility: visible; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0; opacity: 0;" />
+    </ui:VisualElement>
+</ui:UXML>

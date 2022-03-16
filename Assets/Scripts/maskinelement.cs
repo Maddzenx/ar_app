@@ -6,22 +6,23 @@ using UnityEngine.UIElements;
 using UnityEngine.SceneManagement;
 
 [RequireComponent(typeof(UIDocument))]
-public class Add_book : MonoBehaviour
+
+public class maskinelement : MonoBehaviour
 
 {
-        public Button Add;
+        public Button Maskin;
     // Start is called before the first frame update
     void Start()
     {
         var root = GetComponent<UIDocument>().rootVisualElement;
     
-        Add = root.Q<Button>("add_book");
-        Add.clicked += AddPressed;
+        Maskin = root.Q<Button>("maskinelement");
+        Maskin.clicked += MaskinPressed;
         
     }
 
     // Update is called once per frame
-    void AddPressed()
+    void MaskinPressed()
     {
         SceneManager.LoadScene("categories");
     }

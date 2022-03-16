@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/loading_screen.unity
+    guid: ca2c6533310f417438d523684e037ad4
+  - enabled: 1
     path: Assets/Scenes/Scene standard-view.unity
     guid: 5217c91971a5e0c4e999f7260cdb4f8f
   - enabled: 1
@@ -26,6 +29,15 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/animation_view.unity
     guid: 6c41a088c320beb40a94a5b9584bf758
+  - enabled: 1
+    path: Assets/Scenes/sketch_view.unity
+    guid: e91f90202df29b840b65941c6b47e0f9
+  - enabled: 1
+    path: Assets/Scenes/categories.unity
+    guid: 5ae854879126cca4a95b76d4e8518dbe
+  - enabled: 1
+    path: Assets/Scenes/list_of_elements.unity
+    guid: a14d881cc35d7fb4cb92231089c2ed7e
   m_configObjects:
     UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: 4cf7dfdb4c89b45d6ba8d998cb01cefe, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 29f5eaa14fd2046cfa7644bd6d07be5f, type: 2}

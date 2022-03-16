@@ -6,23 +6,24 @@ using UnityEngine.UIElements;
 using UnityEngine.SceneManagement;
 
 [RequireComponent(typeof(UIDocument))]
-public class Add_book : MonoBehaviour
 
+public class loading_screen : MonoBehaviour
 {
-        public Button Add;
+    public Button click;
+
     // Start is called before the first frame update
     void Start()
     {
         var root = GetComponent<UIDocument>().rootVisualElement;
     
-        Add = root.Q<Button>("add_book");
-        Add.clicked += AddPressed;
-        
+        click = root.Q<Button>("click");
+        click.clicked += clickPressed;
     }
 
     // Update is called once per frame
-    void AddPressed()
+    void clickPressed()
     {
-        SceneManager.LoadScene("categories");
+        SceneManager.LoadScene("SampleScene");
     }
+
 }
