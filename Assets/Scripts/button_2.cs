@@ -7,23 +7,23 @@ using UnityEngine.SceneManagement;
 
 [RequireComponent(typeof(UIDocument))]
 
-public class figure_1 : MonoBehaviour
+public class button_2 : MonoBehaviour
 {
-    public Button figure;
+    public Button restart;
 
     // Start is called before the first frame update
     void Start()
     {
         var root = GetComponent<UIDocument>().rootVisualElement;
     
-        figure = root.Q<Button>("figure_1");
-        figure.clicked += figurePressed;
+        restart = root.Q<Button>("button_2");
+        restart.clicked += restartPressed;
     }
 
     // Update is called once per frame
-    void figurePressed()
+    void restartPressed()
     {
-        SceneManager.LoadScene("LA_3D");
+        SceneManager.LoadScene("loading_screen");
     }
 
 }
