@@ -6,9 +6,9 @@ using UnityEngine.UI;
 public class LA_Slider : MonoBehaviour
 {
     public Slider mySlider;
-    public float xLimit = 45f;
-    public float yLimit = 45f;
-    public float zLimit = 45f;
+    public float xLimit = 180f;
+    public float yLimit = 180f;
+    public float zLimit = 180f;
 
     public bool xRot;
     public bool yRot;
