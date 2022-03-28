@@ -1,0 +1,32 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.UI;
+
+public class LA_Slider : MonoBehaviour
+{
+    public Slider mySlider;
+    public float xLimit = 180f;
+    public float yLimit = 180f;
+    public float zLimit = 180f;
+
+    public bool xRot;
+    public bool yRot;
+    public bool zRot;
+    // Start is called before the first frame update
+    void Start()
+    {
+        mySlider.onValueChanged.AddListener(delegate{
+            RotateMe();
+        });
+    }
+
+    public void RotateMe(){
+        if(xRot)
+            transform.localEulerAngles = new Vector3(mySlider.value * xLimit, transform.localEulerAngles.y, transform.localEulerAngles.z);
+        if(yRot)
+            transform.localEulerAngles = new Vector3(transform.localEulerAngles.x, mySlider.value * yLimit, transform.localEulerAngles.z);
+        if(zRot)
+            transform.localEulerAngles = new Vector3(transform.localEulerAngles.x, transform.localEulerAngles.y, mySlider.value * zLimit);
+    }
+}
