@@ -23,7 +23,7 @@ public class off_explosion : MonoBehaviour
     // Update is called once per frame
     void ExpPressed()
     {
-        SceneManager.LoadScene("Scene standard-view");
+        SceneManager.LoadScene("LA_3D");
     }
 
 }

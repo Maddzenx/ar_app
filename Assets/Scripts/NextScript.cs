@@ -22,7 +22,7 @@ public class NextScript : MonoBehaviour
 
     // Update is called once per frame
     void infoPressed() {
-        SceneManager.LoadScene("Scene standard-view");
+        SceneManager.LoadScene("LA_3D");
         
     }
 

@@ -22,7 +22,7 @@ public class off_animation : MonoBehaviour
     // Update is called once per frame
     void AnimationPressed()
     {
-        SceneManager.LoadScene("Scene standard-view");
+        SceneManager.LoadScene("LA_3D");
     }
 
 }

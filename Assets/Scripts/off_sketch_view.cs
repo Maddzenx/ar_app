@@ -23,6 +23,6 @@ public class off_sketch_view : MonoBehaviour
     // Update is called once per frame
     void sketchPressed()
     {
-        SceneManager.LoadScene("Scene standard-view");
+        SceneManager.LoadScene("LA_3D");
     }
 }

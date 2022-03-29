@@ -23,7 +23,7 @@ public class off_cut_view : MonoBehaviour
     // Update is called once per frame
     void cutPressed()
     {
-        SceneManager.LoadScene("Scene standard-view");
+        SceneManager.LoadScene("LA_3D");
     }
 
 }
