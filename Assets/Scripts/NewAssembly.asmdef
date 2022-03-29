@@ -1,12 +1,11 @@
 {
-    "name": "NewAssembly",
+    "name": "NewAssembly1",
     "rootNamespace": "",
     "references": [
-
-		"using UnityEngine",
-		"using UnityEngine.UIElements",
-		"using UnityEngine.SceneManagement"
-	],
+        "using UnityEngine",
+        "using UnityEngine.UIElements",
+        "using UnityEngine.SceneManagement"
+    ],
     "includePlatforms": [],
     "excludePlatforms": [],
     "allowUnsafeCode": false,
