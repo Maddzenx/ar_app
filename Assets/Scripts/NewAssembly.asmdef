@@ -1,5 +1,5 @@
 {
-    "name": "NewAssembly",
+    "name": "NewAssembly1",
     "rootNamespace": "",
     "references": [
         "using UnityEngine",
