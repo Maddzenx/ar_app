@@ -30,9 +30,6 @@ EditorBuildSettings:
     path: Assets/Scenes/animation_view.unity
     guid: 6c41a088c320beb40a94a5b9584bf758
   - enabled: 1
-    path: Assets/Scenes/sketch_view.unity
-    guid: e91f90202df29b840b65941c6b47e0f9
-  - enabled: 1
     path: Assets/Scenes/categories.unity
     guid: 5ae854879126cca4a95b76d4e8518dbe
   - enabled: 1
@@ -41,6 +38,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/LA Scenes/LA_3D.unity
     guid: 9a97fa63e9dae6b46a816b881ac8a6a4
+  - enabled: 1
+    path: Assets/Scenes/sketch_view.unity
+    guid: 982149c0882136c43a780201bed2e8f2
   m_configObjects:
     UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: 4cf7dfdb4c89b45d6ba8d998cb01cefe, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 29f5eaa14fd2046cfa7644bd6d07be5f, type: 2}
