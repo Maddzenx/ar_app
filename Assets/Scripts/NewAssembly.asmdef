@@ -1,10 +1,14 @@
 {
-    "name": "NewAssembly1",
+    "name": "NewAssembly",
     "rootNamespace": "",
     "references": [
         "using UnityEngine",
         "using UnityEngine.UIElements",
-        "using UnityEngine.SceneManagement"
+        "using UnityEngine.SceneManagement",
+        "Unity.InputSystem",
+        "Unity.XR.ARFoundation",
+        "Unity.XR.ARSubsystems",
+        "Unity.UI.Builder.Tests"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],
