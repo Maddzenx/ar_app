@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657868, g: 0.49641263, b: 0.57481706, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657838, g: 0.49641234, b: 0.57481676, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -371,27 +371,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 753afda48faa3424e802a31f6c303354, type: 3}
       propertyPath: m_LocalScale.x
-      value: 456.49503
+      value: 1000
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 753afda48faa3424e802a31f6c303354, type: 3}
       propertyPath: m_LocalScale.y
-      value: 456.495
+      value: 1000
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 753afda48faa3424e802a31f6c303354, type: 3}
       propertyPath: m_LocalScale.z
-      value: 456.49503
+      value: 1000
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 753afda48faa3424e802a31f6c303354, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -18
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 753afda48faa3424e802a31f6c303354, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -11
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 753afda48faa3424e802a31f6c303354, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -168
+      value: -300
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 753afda48faa3424e802a31f6c303354, type: 3}
       propertyPath: m_LocalRotation.w
@@ -699,8 +699,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d4683eebe863043829803d3eb234a7f0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  zoomOutMin: 1
-  zoomOutMax: 8
 --- !u!114 &1761414340
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -708,7 +706,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1761414335}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0b1e9b2c7fc1248b68da487b1003f421, type: 3}
   m_Name: 
@@ -720,7 +718,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1761414335}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d3e25f3279cf845ccae39f50dd959133, type: 3}
   m_Name: 
