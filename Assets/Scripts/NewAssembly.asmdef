@@ -1,0 +1,22 @@
+{
+    "name": "NewAssembly",
+    "rootNamespace": "",
+    "references": [
+        "using UnityEngine",
+        "using UnityEngine.UIElements",
+        "using UnityEngine.SceneManagement",
+        "Unity.InputSystem",
+        "Unity.XR.ARFoundation",
+        "Unity.XR.ARSubsystems",
+        "Unity.UI.Builder.Tests"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
