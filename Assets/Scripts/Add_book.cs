@@ -23,6 +23,6 @@ public class Add_book : MonoBehaviour
     // Update is called once per frame
     void AddPressed()
     {
-        SceneManager.LoadScene("categories");
+        SceneManager.LoadScene("Scene bookshelf");
     }
 }
