@@ -17,10 +17,10 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/EmptyBookshelfScene.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/infobox_view.unity
     guid: 4a7def7cb4f7b8749be6920d729a2987
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/cut_view.unity
     guid: db06350a13f236c4db23867ce2aa19ea
   - enabled: 0
@@ -42,14 +42,14 @@ EditorBuildSettings:
     path: Assets/mx_Assets/mx_Scenes/BasicTest.unity
     guid: 80c0326e77e08464d9b857ad647052d8
   - enabled: 0
-    path: Assets/mx_Assets/mx_Scenes/BasicARScene.unity
-    guid: 7e9e352c9f70d438f82261aab7584c73
-  - enabled: 0
     path: Assets/Scenes/sketch_view.unity
     guid: 982149c0882136c43a780201bed2e8f2
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/StandardViewScene.unity
     guid: 72445f6986b3741d69c1ee7b60f79979
+  - enabled: 0
+    path: Assets/mx_Assets/mx_Scenes/BasicARScene.unity
+    guid: 7e9e352c9f70d438f82261aab7584c73
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: f1c2bea88d5dc499fabba604a9cfb040, type: 2}
     UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: 4cf7dfdb4c89b45d6ba8d998cb01cefe, type: 2}
