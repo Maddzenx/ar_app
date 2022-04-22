@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028355, g: 0.22571374, b: 0.30692255, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657868, g: 0.49641263, b: 0.57481706, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -144,7 +144,6 @@ GameObject:
   - component: {fileID: 1659332013}
   - component: {fileID: 1659332012}
   - component: {fileID: 1659332011}
-  - component: {fileID: 1659332024}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -359,18 +358,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
---- !u!114 &1659332024
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1659332010}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6e9fb8f1391f8ef4aa5bad09755bc15f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &1684503553
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -494,6 +481,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d4683eebe863043829803d3eb234a7f0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  zoomOutMin: 1
+  zoomOutMax: 8
 --- !u!1 &1985302277
 GameObject:
   m_ObjectHideFlags: 0

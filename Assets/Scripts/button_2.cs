@@ -23,7 +23,7 @@ public class button_2 : MonoBehaviour
     // Update is called once per frame
     void restartPressed()
     {
-        SceneManager.LoadScene("loading_screen");
+        SceneManager.LoadScene("list_of_elements");
     }
 
 }

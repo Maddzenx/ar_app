@@ -9,13 +9,13 @@ EditorBuildSettings:
     path: Assets/Scenes/loading_screen.unity
     guid: ca2c6533310f417438d523684e037ad4
   - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
+    path: Assets/Scenes/Scene standard-view.unity
+    guid: 5217c91971a5e0c4e999f7260cdb4f8f
+  - enabled: 1
+    path: Assets/Scenes/Scene bookshelf.unity
+    guid: a559f5a242a3f374788b43b683dcdf3a
   - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: Assets/Scenes/EmptyBookshelfScene.unity
+    path: Assets/Scenes/SampleScene.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 1
     path: Assets/Scenes/infobox_view.unity
@@ -29,24 +29,18 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/animation_view.unity
     guid: 6c41a088c320beb40a94a5b9584bf758
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/categories.unity
     guid: 5ae854879126cca4a95b76d4e8518dbe
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/list_of_elements.unity
     guid: a14d881cc35d7fb4cb92231089c2ed7e
-  - enabled: 0
+  - enabled: 1
     path: Assets/LA Scenes/LA_3D.unity
     guid: 9a97fa63e9dae6b46a816b881ac8a6a4
   - enabled: 0
     path: Assets/mx_Assets/mx_Scenes/BasicTest.unity
     guid: 80c0326e77e08464d9b857ad647052d8
-  - enabled: 0
-    path: Assets/Scenes/sketch_view.unity
-    guid: 982149c0882136c43a780201bed2e8f2
-  - enabled: 0
-    path: Assets/Scenes/StandardViewScene.unity
-    guid: 72445f6986b3741d69c1ee7b60f79979
   - enabled: 0
     path: Assets/mx_Assets/mx_Scenes/BasicARScene.unity
     guid: 7e9e352c9f70d438f82261aab7584c73
