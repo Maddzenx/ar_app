@@ -1,5 +1,4 @@
 <ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
-    <Style src="/Assets/test.uss" />
     <ui:VisualElement style="left: 0; top: 0; width: 100%; height: 40%;">
         <ui:Label text="Din bokhylla" display-tooltip-when-elided="true" style="font-size: 25px; -unity-font: url(&apos;/Assets/Fonts/Montserrat/static/Montserrat-ExtraBold.ttf&apos;); position: absolute; top: 63%; left: 7%; -unity-font-definition: none; color: rgb(101, 101, 101); height: 40px; width: 50%;" />
         <ui:Label text="Här hittar du alla dina tillagda böcker " display-tooltip-when-elided="true" name="Label" style="font-size: 10%; -unity-font: url(&apos;/Assets/Fonts/Montserrat/static/Montserrat-Regular.ttf&apos;); position: absolute; top: 78%; left: 7.5%; -unity-font-definition: none; color: rgb(101, 101, 101); -unity-text-outline-color: rgb(101, 101, 101); width: 80%;" />

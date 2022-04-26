@@ -3,8 +3,8 @@ using System.Collections;
 
 public class zooma : MonoBehaviour 
 {
-	private float scale_factor= 1f;   
-	private float MAXSCALE = 150f, MIN_SCALE = 0.5f; // zoom-in and zoom-out limits
+	private float scale_factor= 1.5f;   
+	private float MAXSCALE = 45f, MIN_SCALE = 15f; // zoom-in and zoom-out limits
 	private bool isMousePressed;
 	private Vector2 prevDist = new Vector2(0,0);
 	private Vector2 curDist = new Vector2(0,0);
@@ -18,8 +18,8 @@ public class zooma : MonoBehaviour
 		// Game Object will be created and make current object as its child (only because we can set virtual anchor point of gameobject and can zoom in and zoom out from particular position)
 		parentObject = new GameObject("ParentObject");
 		parentObject.transform.parent = transform.parent;
-        // Raden nedanfor avgor starten?
-		parentObject.transform.position = new Vector3(transform.position.x, transform.position.y, transform.position.z*-50);
+        // Raden nedanfor avgor startpostionen
+		parentObject.transform.position = new Vector3(transform.position.x, transform.position.y, transform.position.z*3);
 		transform.parent = parentObject.transform;
 
 		ScreenSize = Camera.main.ScreenToWorldPoint(new Vector2(Screen.width,Screen.height));
@@ -60,9 +60,10 @@ public class zooma : MonoBehaviour
 			{
 				if(parentObject.transform.localScale.x < MAXSCALE && parentObject.transform.localScale.y < MAXSCALE)
 				{
-					Vector3 scale = new Vector3(parentObject.transform.localScale.x + scale_factor, parentObject.transform.localScale.y + scale_factor, 1);
+					Vector3 scale = new Vector3(parentObject.transform.localScale.x + scale_factor, parentObject.transform.localScale.y + scale_factor, parentObject.transform.localScale.z + scale_factor);
 					scale.x = (scale.x > MAXSCALE) ? MAXSCALE : scale.x;
 					scale.y = (scale.y > MAXSCALE) ? MAXSCALE : scale.y;
+					scale.z = (scale.z > MAXSCALE) ? MAXSCALE : scale.z;
 					scaleFromPosition(scale,midPoint);
 				}
 			}
@@ -71,9 +72,10 @@ public class zooma : MonoBehaviour
 			{
 				if(parentObject.transform.localScale.x > MIN_SCALE && parentObject.transform.localScale.y > MIN_SCALE)
 				{
-					Vector3 scale = new Vector3(parentObject.transform.localScale.x + scale_factor*-1, parentObject.transform.localScale.y + scale_factor*-1, 1);
+					Vector3 scale = new Vector3(parentObject.transform.localScale.x + scale_factor*-1, parentObject.transform.localScale.y + scale_factor*-1, parentObject.transform.localScale.z + scale_factor*-1);
 					scale.x = (scale.x < MIN_SCALE) ? MIN_SCALE : scale.x;
 					scale.y = (scale.y < MIN_SCALE) ? MIN_SCALE : scale.y;
+					scale.z = (scale.z < MIN_SCALE) ? MIN_SCALE : scale.z;
 					scaleFromPosition(scale,midPoint);
 				}
 			}
@@ -88,7 +90,7 @@ public class zooma : MonoBehaviour
 			Vector3 prevParentPos = parentObject.transform.position;
 			parentObject.transform.position = fromPos;	
 			Vector3 diff = parentObject.transform.position - prevParentPos;
-			Vector3 pos = new Vector3(diff.x/parentObject.transform.localScale.x*-1, diff.y/parentObject.transform.localScale.y*-1, transform.position.z);
+			Vector3 pos = new Vector3(diff.x/parentObject.transform.localScale.x*-1, diff.y/parentObject.transform.localScale.y*-1, transform.position.z*-1);
 			transform.localPosition = new Vector3(transform.localPosition.x + pos.x, transform.localPosition.y+pos.y, pos.z);
 		}
 		parentObject.transform.localScale = scale;
