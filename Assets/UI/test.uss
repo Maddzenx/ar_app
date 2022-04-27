@@ -1,0 +1,13 @@
+#test-scrollview .unity-scroller--vertical {
+    align-self: center;
+    background-color: rgb(253, 253, 253);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    height: 100%;
+}
+
+#test-scrollview .unity-base-slider--vertical .unity-base-slider__dragger {
+    background-color: rgb(243, 141, 77);
+}

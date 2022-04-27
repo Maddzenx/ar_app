@@ -23,7 +23,7 @@ public class to_3d : MonoBehaviour
     // Update is called once per frame
     void restartPressed()
     {
-        SceneManager.LoadScene("LA_3D");
+        SceneManager.LoadScene("standard-view");
     }
 
 }
