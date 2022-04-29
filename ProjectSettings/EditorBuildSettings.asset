@@ -38,10 +38,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/LA Scenes/LA_3D.unity
     guid: 9a97fa63e9dae6b46a816b881ac8a6a4
-  - enabled: 1
+  - enabled: 0
     path: Assets/mx_Assets/mx_Scenes/BasicTest.unity
     guid: 80c0326e77e08464d9b857ad647052d8
-  - enabled: 0
+  - enabled: 1
     path: Assets/mx_Assets/mx_Scenes/BasicARScene.unity
     guid: 7e9e352c9f70d438f82261aab7584c73
   - enabled: 1

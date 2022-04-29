@@ -3,8 +3,8 @@ using System.Collections;
 
 public class zooma : MonoBehaviour 
 {
-	private float scale_factor= 1f;   
-	private float MAXSCALE = 32f, MIN_SCALE = 10f; // zoom-in and zoom-out limits
+	private float scale_factor= 0.2f;   
+	private float MAXSCALE = 20f, MIN_SCALE = 10f; // zoom-in and zoom-out limits
 	private bool isMousePressed;
 	private Vector2 prevDist = new Vector2(0,0);
 	private Vector2 curDist = new Vector2(0,0);
