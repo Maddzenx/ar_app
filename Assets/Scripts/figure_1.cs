@@ -23,7 +23,7 @@ public class figure_1 : MonoBehaviour
     // Update is called once per frame
     void figurePressed()
     {
-        SceneManager.LoadScene("LA_3D");
+        SceneManager.LoadScene("categories");
     }
 
 }

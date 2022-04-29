@@ -23,7 +23,7 @@ public class go_back : MonoBehaviour
     // Update is called once per frame
     void backPressed()
     {
-        SceneManager.LoadScene("Scene bookshelf");
+        SceneManager.LoadScene("list_of_elements");
     }
 
 }
