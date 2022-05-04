@@ -12,13 +12,13 @@
             </ui:VisualElement>
         </ui:Button>
         <ui:Button text="Button" display-tooltip-when-elided="true" name="button_3" style="width: 92px; background-color: rgba(228, 228, 228, 0); border-left-width: 0; border-right-width: 0; border-top-width: 0; border-bottom-width: 0; border-top-left-radius: 0; border-bottom-left-radius: 0; border-top-right-radius: 0; border-bottom-right-radius: 0; height: 270px;">
-            <ui:VisualElement name="VisualElement" style="background-image: url(&apos;/Assets/Images/rulllagerbild.png&apos;); width: 92px; height: 260px; left: 5%; top: 0; position: absolute;">
-                <ui:Label text="Lager" display-tooltip-when-elided="true" name="Label" style="width: 100%; -unity-text-align: upper-center; top: 10%; color: rgb(240, 129, 61);" />
+            <ui:VisualElement name="VisualElement" style="background-image: url(&apos;/Assets/Images/skruv.png&apos;); width: 92px; height: 260px; left: 5%; top: 0; position: absolute;">
+                <ui:Label text="Förband" display-tooltip-when-elided="true" name="Label" style="width: 100%; -unity-text-align: upper-center; top: 10%; color: rgb(240, 129, 61);" />
             </ui:VisualElement>
         </ui:Button>
         <ui:Button text="Button" display-tooltip-when-elided="true" name="button_4" style="width: 92px; background-color: rgba(228, 228, 228, 0); border-left-width: 0; border-right-width: 0; border-top-width: 0; border-bottom-width: 0; border-top-left-radius: 0; border-bottom-left-radius: 0; border-top-right-radius: 0; border-bottom-right-radius: 0; height: 270px;">
-            <ui:VisualElement name="VisualElement" style="background-image: url(&apos;/Assets/Images/rulllagerbild.png&apos;); width: 92px; height: 260px; left: 5%; top: 0; position: absolute;">
-                <ui:Label text="Lager" display-tooltip-when-elided="true" name="Label" style="width: 100%; -unity-text-align: upper-center; top: 10%; color: rgb(240, 129, 61);" />
+            <ui:VisualElement name="VisualElement" style="background-image: url(&apos;/Assets/Images/belt_gear.png&apos;); width: 92px; height: 260px; left: 5%; top: 0; position: absolute;">
+                <ui:Label text="Remväxlar" display-tooltip-when-elided="true" name="Label" style="width: 100%; -unity-text-align: upper-center; top: 10%; color: rgb(240, 129, 61);" />
             </ui:VisualElement>
         </ui:Button>
     </ui:ScrollView>
