@@ -6,23 +6,24 @@ using UnityEngine.UIElements;
 using UnityEngine.SceneManagement;
 
 [RequireComponent(typeof(UIDocument))]
-public class Add_book : MonoBehaviour
 
+public class from_qr : MonoBehaviour
 {
-        public Button Add;
+    public Button back;
+
     // Start is called before the first frame update
     void Start()
     {
         var root = GetComponent<UIDocument>().rootVisualElement;
     
-        Add = root.Q<Button>("add_book");
-        Add.clicked += AddPressed;
-        
+        back = root.Q<Button>("Button");
+        back.clicked += backPressed;
     }
 
     // Update is called once per frame
-    void AddPressed()
+    void backPressed()
     {
-        SceneManager.LoadScene("fejk_qr");
+        SceneManager.LoadScene("Scene bookshelf");
     }
+
 }

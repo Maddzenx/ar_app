@@ -6,32 +6,24 @@ using UnityEngine.UIElements;
 using UnityEngine.SceneManagement;
 
 [RequireComponent(typeof(UIDocument))]
+
 public class backToVR : MonoBehaviour
 {
-    public Button tillbaka;
+    public Button back;
+
     // Start is called before the first frame update
     void Start()
     {
         var root = GetComponent<UIDocument>().rootVisualElement;
-
-        try
-        {
-            string a = null;
-            a.ToString();
-        }
-        catch (NullReferenceException e)
-        {
-            //Code to do something with e
-            tillbaka = root.Q<Button>("AR_toggle");
-            tillbaka.clicked += tillbakaPressed;
-        }
-
+    
+        back = root.Q<Button>("VR_toggle");
+        back.clicked += backPressed;
     }
 
     // Update is called once per frame
-    void tillbakaPressed()
+    void backPressed()
     {
         SceneManager.LoadScene("LA_3D");
     }
-}
 
+}
