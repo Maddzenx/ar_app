@@ -56,6 +56,27 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/cut_view_2.unity
     guid: 5cacb4c39eadc7c448cd0835bb8e0ac5
+  - enabled: 1
+    path: Assets/Scenes/rem_list.unity
+    guid: fd296785669725848939172fe37d5e76
+  - enabled: 1
+    path: Assets/Scenes/rem_view.unity
+    guid: ecd28bdd323b64042954badca90e061d
+  - enabled: 1
+    path: Assets/Scenes/rem_info.unity
+    guid: ea998b84ee000274db187ad893186b04
+  - enabled: 1
+    path: Assets/Scenes/rem_cut.unity
+    guid: 70adae25f8831a346bdd678ce3aa68c6
+  - enabled: 1
+    path: Assets/Scenes/rem_explosion.unity
+    guid: d735df12e5fa2d24f89e9be3528f32f8
+  - enabled: 1
+    path: Assets/Scenes/rem_animation.unity
+    guid: ad4bf0e4e4849594482802b03cab8691
+  - enabled: 1
+    path: Assets/Scenes/rem_sketch.unity
+    guid: 6bbde0d481c82e84daad4b62717290ee
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: f1c2bea88d5dc499fabba604a9cfb040, type: 2}
     UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: 4cf7dfdb4c89b45d6ba8d998cb01cefe, type: 2}
